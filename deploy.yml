@@ -17,3 +17,15 @@ spec:
             image: loginwebapp:latest
             ports:
               - containerPort: 8080
+---
+kind: Service
+apiVersion: v1
+metadata:
+   name: mysvc
+spec:
+  type: NodePort
+  selector:
+     env: test
+  ports:
+     - port: 80
+       targetPort: 8080
