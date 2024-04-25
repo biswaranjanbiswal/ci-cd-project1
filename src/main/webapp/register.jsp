@@ -1,14 +1,22 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registration</title>
+<style>
+    .center {
+      text-align: center;
+    }
+  </style>
     </head>
-    <body bgcolor="silver">
+    <body>
+<div class="center">
+  <!-- Your content here -->
+</div>
         <form method="post" action="userRegistration.jsp">
-            <center>
-            <table border="1" width="30%" cellpadding="5">
+            
+            <table border="1">
                 <thead>
                     <tr>
                         <th colspan="2">Enter Information Here</th>
