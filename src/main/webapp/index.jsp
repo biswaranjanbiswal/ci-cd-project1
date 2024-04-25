@@ -1,14 +1,21 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Example</title>
+<style>
+    .center {
+      text-align: center;
+    }
+  </style>
     </head>
-    <body bgcolor="silver">
+    <body>
         <form method="post" action="login.jsp">
-            <center>
-            <table border="0" width="30%" cellpadding="3">
+            <div class="center">
+            </div>
+            <table border="0">
+              <caption>New York City Marathon Results 2013</caption>
                 <thead>
                     <tr>
                         <th colspan="2">Login Page</th>
