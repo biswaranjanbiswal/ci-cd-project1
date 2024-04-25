@@ -17,11 +17,12 @@
         <form method="post" action="userRegistration.jsp">
             
             <table border="1">
+              <caption>New York City Marathon Results 2013</caption
                 <thead>
                     <tr>
                         <th colspan="2">Enter Information Here</th>
                     </tr>
-                  <caption>New York City Marathon Results 2013</caption
+                  
                 </thead>
                 <tbody>
                     <tr>
